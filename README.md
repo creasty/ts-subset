@@ -16,7 +16,7 @@ With `ts-subset`, you can:
 - Preserve optional and nullable fields in the resulting type.
 - Safely narrow down types to what you actually need.
 
-##⠀Installation
+## Installation
 
 ```sh
 npm install ts-subset
