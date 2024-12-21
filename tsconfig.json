@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "lib": ["es2020"],
+    "baseUrl": "src"
+  },
+  "include": ["./src/**/*", "./build.ts", "./jest.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
